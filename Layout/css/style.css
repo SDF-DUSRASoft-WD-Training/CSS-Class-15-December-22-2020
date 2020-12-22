@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(211, 195, 195);
+}
+
+main{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*
+    list-style
+*/
+
+/* Header area style */
+header{
+    display: table;
+    width: 100%;
+}
+header .logo img{
+    max-width: 50px;
+    display: inline-block;
+}
+
+header > nav{
+    float: right;
+}
+
+header > nav > ul{
+    list-style: none;
+}
+
+header > nav > ul > li{
+    display: inline-block;
+}
+
+header > nav > ul > li > a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Content area style */
+.wrapper{
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+/* Hero section */
+.hero{
+    padding: 50px 50% 50px 50px;
+    background-color: gray;
+    background-image: url(../images/flowers.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    box-shadow: 7px 6px 0px 4px #d405cc, -8px -9px 0px 0px #d405cc;
+}
+
+.hero h1 span{
+    color: rgb(223, 184, 10);
+}
+
+/* About us area style */
+.about{
+    display: flex;
+    padding: 50px 0;
+}
+
+.three-column{
+    width: 33.33%;
+    padding-left: 20px;
+}
+
+.first-column{
+    padding-left: 0;
+}
+
+.three-column h3{
+    border-left: 3px solid rgb(223, 184, 10);
+    padding-left: 20px;
+}
+
+.three-column h3 span{
+    color: rgb(223, 184, 10);
+}
+
+/* Portfolio area */
+.portfolio{
+    display: flex;
+    margin-left: -20px;
+}
+
+figure{
+    margin: 0 10px 20px 10px;
+    padding: 0;
+    background-color: rgb(231, 219, 219);
+    border: 1px solid gray;
+}
+
+figure img{
+    padding: 10px;
+}
+
+figcaption{
+    padding: 10px;
+    border-top: 1px solid gray;
+}
